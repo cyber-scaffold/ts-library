@@ -1,4 +1,4 @@
-import test from "@source";
+import test from "@library";
 
 console.log(test);
 

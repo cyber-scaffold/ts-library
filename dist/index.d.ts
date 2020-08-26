@@ -1,3 +1,2 @@
-declare const _default: {};
-export default _default;
+export default function test(): Promise<void>;
 //# sourceMappingURL=index.d.ts.map
