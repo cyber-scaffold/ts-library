@@ -1,0 +1,28 @@
+{
+  "name": "ts-library",
+  "version": "1.0.0",
+  "description": "基于typescript的js类库脚手架",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "node ./scripts/development.js",
+    "build": "tsc --outDir dist --sourceMap --declarationMap"
+  },
+  "keywords": [
+    "types",
+    "cyber",
+    "library",
+    "shicheng.yu",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "execa": "^4.0.3",
+    "typescript": "^4.0.2",
+    "@cyber-tools/spa-cli": "file:../../cyber-tools/spa-cli"
+  },
+  "dependencies": {
+    "tslib": "^2.0.1",
+    "@babel/runtime": "^7.11.2"
+  }
+}

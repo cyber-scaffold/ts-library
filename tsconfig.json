@@ -1,0 +1,26 @@
+{
+  "exclude": [
+    "dist",
+    "example",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": [
+      "ES2015"
+    ],
+    "rootDir": "src",
+    "strict": true,
+    "target": "es5",
+    "declaration": true,
+    "declarationDir": "dist",
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
